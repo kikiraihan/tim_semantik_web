@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ibu-fitroh-openai"
+version = "0.1.0"
+description = ""
+authors = ["kikiraihan <mohzulkiflikatili@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+plotly = "^5.18.0"
+sparqlwrapper = "^2.0.0"
+ipykernel = "^6.27.1"
+neo4j = "^5.15.0"
+openai = "0.28"
+rdflib = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
