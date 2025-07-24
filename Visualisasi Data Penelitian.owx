@@ -1,0 +1,647 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fitroh/ontologies/2024/8/untitled-ontology-38"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fitroh/ontologies/2024/8/untitled-ontology-38">
+    <Prefix name="" IRI="http://www.semanticweb.org/fitroh/ontologies/2024/8/untitled-ontology-38/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accrual_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DOI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funder_Crossref_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Github_User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Google_Scholar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IEEE_Id"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identity_of_Research_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Id"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL_Repo_IPB"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasSubject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTipe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyDonatur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasMethod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasSubject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasTipe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="rdf:HasSubClass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#April_19_2024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BRIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_tentang_penyakit_jabon_leaf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermawan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hutan_Reservasi_Kalimantan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Implementation_of_support_vector_machine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jabon_Leaf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jabon_Leaf_Disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KTPwN7MAAAAJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yeni_Herdiyeni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#img"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yeniherdiyeni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10.1234/example-dataset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2736291"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3218931"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#37399793400"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://doi.org/10.1063/5.0199825"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://repository.ipb.ac.id/jspui/handle/123456789/133465"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accrual_Method"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contributor"/>
+        <Class IRI="#Identity_of_Research_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creator"/>
+        <Class IRI="#Identity_of_Research_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DOI"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funder"/>
+        <Class IRI="#Identity_of_Research_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funder_Crossref_Data"/>
+        <Class IRI="#Funder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Github_User"/>
+        <Class IRI="#Contributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Github_User"/>
+        <Class IRI="#Creator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Google_Scholar"/>
+        <Class IRI="#Contributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Google_Scholar"/>
+        <Class IRI="#Creator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IEEE_Id"/>
+        <Class IRI="#Contributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IEEE_Id"/>
+        <Class IRI="#Creator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Id"/>
+        <Class IRI="#Contributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Id"/>
+        <Class IRI="#Creator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="#Identity_of_Research_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subject"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URL_Repo_IPB"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#April_19_2024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funder"/>
+        <NamedIndividual IRI="#BRIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Description"/>
+        <NamedIndividual IRI="#Data_tentang_penyakit_jabon_leaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accrual_Method"/>
+        <NamedIndividual IRI="#Drone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contributor"/>
+        <NamedIndividual IRI="#Hermawan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Hutan_Reservasi_Kalimantan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Implementation_of_support_vector_machine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#Jabon_Leaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subject"/>
+        <NamedIndividual IRI="#Jabon_Leaf_Disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Google_Scholar"/>
+        <NamedIndividual IRI="#KTPwN7MAAAAJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creator"/>
+        <NamedIndividual IRI="#Yeni_Herdiyeni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#img"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Github_User"/>
+        <NamedIndividual IRI="#yeniherdiyeni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identity_of_Research_Data"/>
+        <NamedIndividual IRI="#10.1234/example-dataset"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funder_Crossref_Data"/>
+        <NamedIndividual IRI="#20000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#2736291"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="rdf:HasSubClass"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#2736291"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Research_Id"/>
+        <NamedIndividual IRI="#3218931"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IEEE_Id"/>
+        <NamedIndividual IRI="#37399793400"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DOI"/>
+        <NamedIndividual IRI="https://doi.org/10.1063/5.0199825"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#URL_Repo_IPB"/>
+        <NamedIndividual IRI="https://repository.ipb.ac.id/jspui/handle/123456789/133465"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+        <NamedIndividual IRI="#April_19_2024"/>
+        <NamedIndividual IRI="#April_19_2024"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyDonatur"/>
+        <NamedIndividual IRI="#BRIN"/>
+        <NamedIndividual IRI="#20000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <NamedIndividual IRI="#Yeni_Herdiyeni"/>
+        <NamedIndividual IRI="#KTPwN7MAAAAJ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <NamedIndividual IRI="#Yeni_Herdiyeni"/>
+        <NamedIndividual IRI="#yeniherdiyeni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <NamedIndividual IRI="#Yeni_Herdiyeni"/>
+        <NamedIndividual IRI="#3218931"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <NamedIndividual IRI="#Yeni_Herdiyeni"/>
+        <NamedIndividual IRI="#37399793400"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <NamedIndividual IRI="#10.1234/example-dataset"/>
+        <NamedIndividual IRI="#BRIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <NamedIndividual IRI="#10.1234/example-dataset"/>
+        <NamedIndividual IRI="#Hermawan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <NamedIndividual IRI="#10.1234/example-dataset"/>
+        <NamedIndividual IRI="#Yeni_Herdiyeni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <NamedIndividual IRI="#10.1234/example-dataset"/>
+        <NamedIndividual IRI="#2736291"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+        <NamedIndividual IRI="#2736291"/>
+        <NamedIndividual IRI="#April_19_2024"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasSubject"/>
+        <NamedIndividual IRI="#2736291"/>
+        <NamedIndividual IRI="#Jabon_Leaf_Disease"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTipe"/>
+        <NamedIndividual IRI="#2736291"/>
+        <NamedIndividual IRI="#img"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTitle"/>
+        <NamedIndividual IRI="#2736291"/>
+        <NamedIndividual IRI="#Implementation_of_support_vector_machine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <NamedIndividual IRI="#2736291"/>
+        <NamedIndividual IRI="#Data_tentang_penyakit_jabon_leaf"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <NamedIndividual IRI="#2736291"/>
+        <NamedIndividual IRI="https://doi.org/10.1063/5.0199825"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <NamedIndividual IRI="#2736291"/>
+        <NamedIndividual IRI="https://repository.ipb.ac.id/jspui/handle/123456789/133465"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasLocation"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasMethod"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasSubject"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTipe"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTitle"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <Class IRI="#Identity_of_Research_Data"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <Class IRI="#Contributor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <Class IRI="#Creator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyDonatur"/>
+        <Class IRI="#Funder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasMethod"/>
+        <Class IRI="#Accrual_Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasSubject"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTipe"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/HasTitle"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <Class IRI="#Contributor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <Class IRI="#Creator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <Class IRI="#Funder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <Class IRI="#Github_User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <Class IRI="#Google_Scholar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <Class IRI="#IEEE_Id"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectProperty"/>
+        <Class IRI="#Research_Id"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyDonatur"/>
+        <Class IRI="#Funder_Crossref_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Accrual_Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#DOI"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:ObjectPropertyResource"/>
+        <Class IRI="#URL_Repo_IPB"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasIdentifier"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasMethod"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasSubject"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasTipe"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasTitle"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <Class IRI="#Identity_of_Research_Data"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasIdentifier"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasMethod"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasSubject"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasTipe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/HasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="rdf:HasSubClass"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

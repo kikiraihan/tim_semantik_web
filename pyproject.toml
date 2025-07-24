@@ -17,6 +17,9 @@ neo4j = "^5.15.0"
 openai = "0.28"
 rdflib = "^7.0.0"
 graphviz = "^0.20.3"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+load-dotenv = "^0.1.0"
 
 [build-system]
 requires = ["poetry-core"]

@@ -1,0 +1,92 @@
+Prefix(:=<http://example.com/ontology#>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(datacite:=<http://datacite.org/schema/kernel-4>)
+
+
+Ontology(<http://example.com/ontology>
+Annotation(rdfs:comment "RDF schema based on the provided diagram")
+
+Declaration(Class(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset>))
+Declaration(Class(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier>))
+Declaration(Class(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person>))
+Declaration(Class(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#ResearchArticle>))
+Declaration(ObjectProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDate>))
+Declaration(ObjectProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDescription>))
+Declaration(ObjectProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasIdentifier>))
+Declaration(ObjectProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasMethod>))
+Declaration(ObjectProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasSubject>))
+Declaration(ObjectProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasTitle>))
+Declaration(ObjectProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasType>))
+Declaration(DataProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#doi>))
+Declaration(DataProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#fundRef>))
+Declaration(DataProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#github>))
+Declaration(DataProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#googleScholar>))
+Declaration(DataProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#personalId>))
+Declaration(DataProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#researcherId>))
+Declaration(DataProperty(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#resourceId>))
+Declaration(NamedIndividual(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan>))
+Declaration(NamedIndividual(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf>))
+Declaration(NamedIndividual(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni>))
+Declaration(NamedIndividual(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset>))
+Declaration(AnnotationProperty(datacite:Description))
+Declaration(AnnotationProperty(datacite:Github))
+Declaration(AnnotationProperty(datacite:GoogleScholar))
+Declaration(AnnotationProperty(datacite:Identifier))
+Declaration(AnnotationProperty(datacite:PersonalIdentifier))
+Declaration(AnnotationProperty(datacite:doi))
+Declaration(AnnotationProperty(datacite:fundref))
+Declaration(AnnotationProperty(datacite:hasIdentifier))
+Declaration(AnnotationProperty(dc:accrualMethod))
+Declaration(AnnotationProperty(dc:date))
+Declaration(AnnotationProperty(dc:subject))
+Declaration(AnnotationProperty(dc:title))
+Declaration(AnnotationProperty(dc:type))
+
+
+
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan> (<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan>)
+
+AnnotationAssertion(datacite:Github <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan> "@hermawan")
+AnnotationAssertion(datacite:GoogleScholar <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan> "KTPxV6MAZ3AAJ")
+AnnotationAssertion(datacite:PersonalIdentifier <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan> "37399793400")
+AnnotationAssertion(datacite:fundref <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan> "Rate $25.000")
+ClassAssertion(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person> <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan>)
+
+# Individual: <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf> (<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf>)
+
+ClassAssertion(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier> <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf>)
+
+# Individual: <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni> (<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni>)
+
+AnnotationAssertion(datacite:Github <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni> "@yenihirdiyeni")
+AnnotationAssertion(datacite:GoogleScholar <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni> "KTPwN7MAAAAJ")
+AnnotationAssertion(datacite:PersonalIdentifier <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni> "3218931")
+AnnotationAssertion(datacite:fundref <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni> "Rate $20.000")
+ClassAssertion(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person> <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni>)
+
+# Individual: <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> (<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset>)
+
+AnnotationAssertion(datacite:Description <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "Early identification of the disease is very important...")
+AnnotationAssertion(datacite:Identifier <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "10.1234/example-dataset")
+AnnotationAssertion(datacite:doi <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "https://doi.org/10.1063/5.0199825")
+AnnotationAssertion(datacite:hasIdentifier <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf>)
+AnnotationAssertion(dc:accrualMethod <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "Project-Based")
+AnnotationAssertion(dc:date <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "April 19, 2024")
+AnnotationAssertion(dc:subject <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "Jabon leaf disease")
+AnnotationAssertion(dc:title <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "Implementation of support vector machine...")
+AnnotationAssertion(dc:type <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> "Proceedings Journal")
+ClassAssertion(<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset> <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset>)
+
+
+)

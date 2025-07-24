@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.com/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://example.com/ontology">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>RDF schema based on the provided diagram</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#ResearchArticle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasSubject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#doi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#fundRef"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#github"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#googleScholar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#personalId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#researcherId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#resourceId"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4Description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4Github"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4GoogleScholar"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4Identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4PersonalIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4doi"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4fundref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4hasIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/accrualMethod"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/subject"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/type"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#ResearchArticle"/>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person"/>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier"/>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person"/>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset"/>
+        <NamedIndividual IRI="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4Github"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan</IRI>
+        <Literal>@hermawan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4GoogleScholar"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan</IRI>
+        <Literal>KTPxV6MAZ3AAJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4PersonalIdentifier"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan</IRI>
+        <Literal>37399793400</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4fundref"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan</IRI>
+        <Literal>Rate $25.000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4Github"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni</IRI>
+        <Literal>@yenihirdiyeni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4GoogleScholar"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni</IRI>
+        <Literal>KTPwN7MAAAAJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4PersonalIdentifier"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni</IRI>
+        <Literal>3218931</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4fundref"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni</IRI>
+        <Literal>Rate $20.000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4Description"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>Early identification of the disease is very important...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4Identifier"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>10.1234/example-dataset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4doi"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>https://doi.org/10.1063/5.0199825</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://datacite.org/schema/kernel-4hasIdentifier"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/accrualMethod"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>Project-Based</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>April 19, 2024</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/subject"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>Jabon leaf disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>Implementation of support vector machine...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/type"/>
+        <IRI>file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset</IRI>
+        <Literal>Proceedings Journal</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

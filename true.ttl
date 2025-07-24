@@ -1,0 +1,63 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
+@prefix ex: <http://example.org/> .
+
+# Dataset
+ex:DatasetA a datacite:Dataset ;
+    dc:title "Jabon Leaf" ;
+    datacite:resourceType "Dataset" .
+
+# Artikel A
+ex:ArtikelA a datacite:Resource ;
+    dc:title "Implementation of support vector machine method for identification of Jabon leaf disease based on morphological characteristics" ;
+    dc:creator ex:DosenD, ex:DosenE, ex:DosenA ;
+    datacite:identifier "321012" ;
+    datacite:resourceType "Article" ;
+    datacite:relatedIdentifier ex:DatasetA ;
+    dc:relation ex:DatasetA .
+
+# Artikel B
+ex:ArtikelB a datacite:Resource ;
+    dc:title "Penerapan Probabilistic Neural Network pada Klasifikasi Patogen Daun Bibit Jabon Berdasarkan Ciri Morfologi Spora" ;
+    dc:creator ex:DosenF, ex:DosenC, ex:DosenA ;
+    datacite:identifier "42113" ;
+    datacite:resourceType "Article" ;
+    datacite:relatedIdentifier ex:DatasetA ;
+    dc:relation ex:DatasetA .
+
+# Peneliti dan Dosen
+ex:DosenA a datacite:Person ;
+    dc:title "Yeni Herdiyeni" ;
+    datacite:contributorType "Researcher" .
+
+ex:DosenB a datacite:Person ;
+    dc:title "FY Manik" ;
+    datacite:contributorType "Researcher" .
+
+ex:DosenC a datacite:Person ;
+    dc:title "EN Herliyana" ;
+    datacite:contributorType "Researcher" .
+
+ex:DosenD a datacite:Person ;
+    dc:title "MB Bangun" ;
+    datacite:contributorType "Researcher" .
+
+ex:DosenE a datacite:Person ;
+    dc:title "FY Manik" ;
+    datacite:contributorType "Researcher" .
+
+ex:DosenF a datacite:Person ;
+    dc:title "R Nurhasanah" ;
+    datacite:contributorType "Researcher" .
+
+# Relasi Artikel dengan Dataset
+ex:ArtikelA datacite:relatedIdentifier ex:DatasetA .
+ex:ArtikelB datacite:relatedIdentifier ex:DatasetA .
+
+# Relasi Dosen dan Peneliti dengan Artikel
+ex:DosenA datacite:relatedIdentifier ex:ArtikelA, ex:ArtikelB .
+ex:DosenB datacite:relatedIdentifier ex:ArtikelA .
+ex:DosenC datacite:relatedIdentifier ex:ArtikelB .
+ex:DosenD datacite:relatedIdentifier ex:ArtikelA .
+ex:DosenE datacite:relatedIdentifier ex:ArtikelA .
+ex:DosenF datacite:relatedIdentifier ex:ArtikelB .

@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/ontology#"
+     xml:base="http://example.com/ontology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="http://datacite.org/schema/"
+     xmlns:datacite="http://datacite.org/schema/kernel-4">
+    <owl:Ontology rdf:about="http://example.com/ontology">
+        <rdfs:comment>RDF schema based on the provided diagram</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4Description -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4Description"/>
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4Github -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4Github"/>
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4GoogleScholar -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4GoogleScholar"/>
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4Identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4Identifier"/>
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4PersonalIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4PersonalIdentifier"/>
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4doi -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4doi"/>
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4fundref -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4fundref"/>
+    
+
+
+    <!-- http://datacite.org/schema/kernel-4hasIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://datacite.org/schema/kernel-4hasIdentifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/accrualMethod -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/accrualMethod"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDate -->
+
+    <owl:ObjectProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDate"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDescription"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasIdentifier -->
+
+    <owl:ObjectProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasIdentifier"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasMethod -->
+
+    <owl:ObjectProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasMethod"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasSubject"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasTitle -->
+
+    <owl:ObjectProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasTitle"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasType -->
+
+    <owl:ObjectProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#doi -->
+
+    <owl:DatatypeProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#doi"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#fundRef -->
+
+    <owl:DatatypeProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#fundRef"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#github -->
+
+    <owl:DatatypeProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#github"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#googleScholar -->
+
+    <owl:DatatypeProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#googleScholar"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#personalId -->
+
+    <owl:DatatypeProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#personalId"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#researcherId -->
+
+    <owl:DatatypeProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#researcherId"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#resourceId -->
+
+    <owl:DatatypeProperty rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#resourceId"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset -->
+
+    <owl:Class rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier -->
+
+    <owl:Class rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person -->
+
+    <owl:Class rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person"/>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#ResearchArticle -->
+
+    <owl:Class rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#ResearchArticle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan -->
+
+    <owl:NamedIndividual rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan">
+        <rdf:type rdf:resource="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person"/>
+        <schema:kernel-4Github>@hermawan</schema:kernel-4Github>
+        <schema:kernel-4GoogleScholar>KTPxV6MAZ3AAJ</schema:kernel-4GoogleScholar>
+        <schema:kernel-4PersonalIdentifier>37399793400</schema:kernel-4PersonalIdentifier>
+        <schema:kernel-4fundref>Rate $25.000</schema:kernel-4fundref>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf -->
+
+    <owl:NamedIndividual rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf">
+        <rdf:type rdf:resource="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni -->
+
+    <owl:NamedIndividual rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni">
+        <rdf:type rdf:resource="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person"/>
+        <schema:kernel-4Github>@yenihirdiyeni</schema:kernel-4Github>
+        <schema:kernel-4GoogleScholar>KTPwN7MAAAAJ</schema:kernel-4GoogleScholar>
+        <schema:kernel-4PersonalIdentifier>3218931</schema:kernel-4PersonalIdentifier>
+        <schema:kernel-4fundref>Rate $20.000</schema:kernel-4fundref>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset -->
+
+    <owl:NamedIndividual rdf:about="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset">
+        <rdf:type rdf:resource="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset"/>
+        <schema:kernel-4Description>Early identification of the disease is very important...</schema:kernel-4Description>
+        <schema:kernel-4Identifier>10.1234/example-dataset</schema:kernel-4Identifier>
+        <schema:kernel-4doi>https://doi.org/10.1063/5.0199825</schema:kernel-4doi>
+        <schema:kernel-4hasIdentifier rdf:resource="file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf"/>
+        <dc:accrualMethod>Project-Based</dc:accrualMethod>
+        <dc:date>April 19, 2024</dc:date>
+        <dc:subject>Jabon leaf disease</dc:subject>
+        <dc:title>Implementation of support vector machine...</dc:title>
+        <dc:type>Proceedings Journal</dc:type>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

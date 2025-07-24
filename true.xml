@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:datacite="http://datacite.org/schema/kernel-4">
+
+    <!-- Ontology Declaration -->
+    <owl:Ontology rdf:about="http://example.com/ontology">
+        <rdfs:comment>RDF schema based on the provided diagram</rdfs:comment>
+    </owl:Ontology>
+
+    <!-- Classes -->
+    <owl:Class rdf:about="#Identifier"/>
+    <owl:Class rdf:about="#Person"/>
+    <owl:Class rdf:about="#Dataset"/>
+    <owl:Class rdf:about="#ResearchArticle"/>
+
+    <!-- Object Properties -->
+    <owl:ObjectProperty rdf:about="#hasIdentifier"/>
+    <owl:ObjectProperty rdf:about="#hasTitle"/>
+    <owl:ObjectProperty rdf:about="#hasDate"/>
+    <owl:ObjectProperty rdf:about="#hasSubject"/>
+    <owl:ObjectProperty rdf:about="#hasType"/>
+    <owl:ObjectProperty rdf:about="#hasMethod"/>
+    <owl:ObjectProperty rdf:about="#hasDescription"/>
+
+    <!-- Data Properties -->
+    <owl:DatatypeProperty rdf:about="#doi"/>
+    <owl:DatatypeProperty rdf:about="#fundRef"/>
+    <owl:DatatypeProperty rdf:about="#googleScholar"/>
+    <owl:DatatypeProperty rdf:about="#github"/>
+    <owl:DatatypeProperty rdf:about="#resourceId"/>
+    <owl:DatatypeProperty rdf:about="#researcherId"/>
+    <owl:DatatypeProperty rdf:about="#personalId"/>
+
+    <!-- Instances -->
+    
+    <!-- Person -->
+    <owl:NamedIndividual rdf:about="#YeniHerdiyeni">
+        <rdf:type rdf:resource="#Person"/>
+        <datacite:PersonalIdentifier>3218931</datacite:PersonalIdentifier>
+        <datacite:Github>@yenihirdiyeni</datacite:Github>
+        <datacite:GoogleScholar>KTPwN7MAAAAJ</datacite:GoogleScholar>
+        <datacite:fundref>Rate $20.000</datacite:fundref>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Hermawan">
+        <rdf:type rdf:resource="#Person"/>
+        <datacite:PersonalIdentifier>37399793400</datacite:PersonalIdentifier>
+        <datacite:Github>@hermawan</datacite:Github>
+        <datacite:GoogleScholar>KTPxV6MAZ3AAJ</datacite:GoogleScholar>
+        <datacite:fundref>Rate $25.000</datacite:fundref>
+    </owl:NamedIndividual>
+
+    <!-- Dataset -->
+    <owl:NamedIndividual rdf:about="#example-dataset">
+        <rdf:type rdf:resource="#Dataset"/>
+        <datacite:Identifier>10.1234/example-dataset</datacite:Identifier>
+        <datacite:hasIdentifier rdf:resource="#JabonLeaf"/>
+        <dc:title>Implementation of support vector machine...</dc:title>
+        <dc:date>April 19, 2024</dc:date>
+        <dc:subject>Jabon leaf disease</dc:subject>
+        <dc:type>Proceedings Journal</dc:type>
+        <dc:accrualMethod>Project-Based</dc:accrualMethod>
+        <datacite:Description>Early identification of the disease is very important...</datacite:Description>
+        <datacite:doi>https://doi.org/10.1063/5.0199825</datacite:doi>
+    </owl:NamedIndividual>
+
+    <!-- Identifiers -->
+    <owl:NamedIndividual rdf:about="#JabonLeaf">
+        <rdf:type rdf:resource="#Identifier"/>
+    </owl:NamedIndividual>
+
+</rdf:RDF>

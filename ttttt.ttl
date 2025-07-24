@@ -1,0 +1,193 @@
+@prefix : <http://example.com/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.com/ontology> .
+
+<http://example.com/ontology> rdf:type owl:Ontology ;
+                               rdfs:comment "RDF schema based on the provided diagram" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://datacite.org/schema/kernel-4Description
+<http://datacite.org/schema/kernel-4Description> rdf:type owl:AnnotationProperty .
+
+
+###  http://datacite.org/schema/kernel-4Github
+<http://datacite.org/schema/kernel-4Github> rdf:type owl:AnnotationProperty .
+
+
+###  http://datacite.org/schema/kernel-4GoogleScholar
+<http://datacite.org/schema/kernel-4GoogleScholar> rdf:type owl:AnnotationProperty .
+
+
+###  http://datacite.org/schema/kernel-4Identifier
+<http://datacite.org/schema/kernel-4Identifier> rdf:type owl:AnnotationProperty .
+
+
+###  http://datacite.org/schema/kernel-4PersonalIdentifier
+<http://datacite.org/schema/kernel-4PersonalIdentifier> rdf:type owl:AnnotationProperty .
+
+
+###  http://datacite.org/schema/kernel-4doi
+<http://datacite.org/schema/kernel-4doi> rdf:type owl:AnnotationProperty .
+
+
+###  http://datacite.org/schema/kernel-4fundref
+<http://datacite.org/schema/kernel-4fundref> rdf:type owl:AnnotationProperty .
+
+
+###  http://datacite.org/schema/kernel-4hasIdentifier
+<http://datacite.org/schema/kernel-4hasIdentifier> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/accrualMethod
+<http://purl.org/dc/elements/1.1/accrualMethod> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/subject
+<http://purl.org/dc/elements/1.1/subject> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/type
+<http://purl.org/dc/elements/1.1/type> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDate
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDate> rdf:type owl:ObjectProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDescription
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasDescription> rdf:type owl:ObjectProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasIdentifier
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasIdentifier> rdf:type owl:ObjectProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasMethod
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasMethod> rdf:type owl:ObjectProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasSubject
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasSubject> rdf:type owl:ObjectProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasTitle
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasTitle> rdf:type owl:ObjectProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasType
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#hasType> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#doi
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#doi> rdf:type owl:DatatypeProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#fundRef
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#fundRef> rdf:type owl:DatatypeProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#github
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#github> rdf:type owl:DatatypeProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#googleScholar
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#googleScholar> rdf:type owl:DatatypeProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#personalId
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#personalId> rdf:type owl:DatatypeProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#researcherId
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#researcherId> rdf:type owl:DatatypeProperty .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#resourceId
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#resourceId> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset> rdf:type owl:Class .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier> rdf:type owl:Class .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person> rdf:type owl:Class .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#ResearchArticle
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#ResearchArticle> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Hermawan> rdf:type owl:NamedIndividual ,
+                                                                                                                       <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person> ;
+                                                                                                              <http://datacite.org/schema/kernel-4Github> "@hermawan" ;
+                                                                                                              <http://datacite.org/schema/kernel-4GoogleScholar> "KTPxV6MAZ3AAJ" ;
+                                                                                                              <http://datacite.org/schema/kernel-4PersonalIdentifier> "37399793400" ;
+                                                                                                              <http://datacite.org/schema/kernel-4fundref> "Rate $25.000" .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf> rdf:type owl:NamedIndividual ,
+                                                                                                                        <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Identifier> .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#YeniHerdiyeni> rdf:type owl:NamedIndividual ,
+                                                                                                                            <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Person> ;
+                                                                                                                   <http://datacite.org/schema/kernel-4Github> "@yenihirdiyeni" ;
+                                                                                                                   <http://datacite.org/schema/kernel-4GoogleScholar> "KTPwN7MAAAAJ" ;
+                                                                                                                   <http://datacite.org/schema/kernel-4PersonalIdentifier> "3218931" ;
+                                                                                                                   <http://datacite.org/schema/kernel-4fundref> "Rate $20.000" .
+
+
+###  file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset
+<file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#example-dataset> rdf:type owl:NamedIndividual ,
+                                                                                                                              <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#Dataset> ;
+                                                                                                                     <http://datacite.org/schema/kernel-4Description> "Early identification of the disease is very important..." ;
+                                                                                                                     <http://datacite.org/schema/kernel-4Identifier> "10.1234/example-dataset" ;
+                                                                                                                     <http://datacite.org/schema/kernel-4doi> "https://doi.org/10.1063/5.0199825" ;
+                                                                                                                     <http://datacite.org/schema/kernel-4hasIdentifier> <file:/D:/Sisa%20onedrive%20mhs%20lama/Documents/Freelancer/lain/Semantic/tim_semantik_web/true.xml#JabonLeaf> ;
+                                                                                                                     <http://purl.org/dc/elements/1.1/accrualMethod> "Project-Based" ;
+                                                                                                                     <http://purl.org/dc/elements/1.1/date> "April 19, 2024" ;
+                                                                                                                     <http://purl.org/dc/elements/1.1/subject> "Jabon leaf disease" ;
+                                                                                                                     <http://purl.org/dc/elements/1.1/title> "Implementation of support vector machine..." ;
+                                                                                                                     <http://purl.org/dc/elements/1.1/type> "Proceedings Journal" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
